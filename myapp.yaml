@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   node-todo-app:
-    image: mahiramesh2617/${DOCKER_IMAGE}:v38
+    image: mahiramesh2617/myapp:v40
     ports:
       - "8080:8000"
     networks:
